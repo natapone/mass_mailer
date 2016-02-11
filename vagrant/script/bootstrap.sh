@@ -16,3 +16,5 @@ curl -L https://cpanmin.us | perl - --sudo App::cpanminus
 
 # Fix missing perl module
 sudo apt-get install libnet-ssleay-perl
+
+echo "export PERL5LIB=/home/vagrant/project/lib" >> /home/vagrant/.bashrc
