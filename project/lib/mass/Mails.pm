@@ -66,10 +66,14 @@ sub list {
 
         # add data to mail list
         # check duplicate from main key
-        if ( defined($mail_list->{$mail_detail->{$self->key_field}}) ) {
-            print "Duplicate mail: ", Dumper($mail_detail), "\n";
-        } else {
-            $mail_list->{$mail_detail->{$self->key_field}} = $mail_detail;
+        my $key = $mail_detail->{ $self->key_field };
+        # print "-------- key = $key \n";
+        if ( defined($key) ) {
+            if ( exists($mail_list->{$mail_detail->{$self->key_field}}) ) {
+                print "Duplicate mail: ", Dumper($mail_detail), "\n";
+            } else {
+                $mail_list->{$mail_detail->{$self->key_field}} = $mail_detail;
+            }
         }
     }
     # print "list ....", Dumper($mail_list), "\n";

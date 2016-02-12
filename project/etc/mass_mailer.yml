@@ -1,47 +1,8 @@
 is_test: __NO__
-connect_info:
-    Quote:
-        - dbi:Pg:dbname=__DBNAME__;host=__HOSTNAME__
-        - __USERNAME__
-        - __PASSWORD__
-        - {AutoCommit: 1, pg_enable_utf8: 1}
-
-logger:
-    log4perl.logger: AppFatal
-    
-    log4perl.filter.MatchInfo: Log::Log4perl::Filter::LevelMatch
-    log4perl.filter.MatchInfo.LevelToMatch: INFO
-    log4perl.filter.MatchInfo.AcceptOnMatch: "true"
-
-    log4perl.appender.AppInfo: Log::Log4perl::Appender::File
-    log4perl.appender.AppInfo.filename: __PATH_INFO__
-    log4perl.appender.AppInfo.mode: append
-    log4perl.appender.AppInfo.create_at_logtime: 1
-    log4perl.appender.AppInfo.layout: Log::Log4perl::Layout::PatternLayout
-    log4perl.appender.AppInfo.layout.ConversionPattern: "%d|||%p|||%c|||%F --line:%L|||%M %m %n"
-    log4perl.appender.AppInfo.Filter: MatchInfo
-
-    log4perl.filter.MatchFatal: Log::Log4perl::Filter::LevelMatch
-    log4perl.filter.MatchFatal.LevelToMatch: FATAL
-    log4perl.filter.MatchFatal.AcceptOnMatch: "true"
-
-    log4perl.appender.AppFatal: Log::Log4perl::Appender::File
-    log4perl.appender.AppFatal.filename: __PATH_FATAL__
-    log4perl.appender.AppFatal.utf8: 1
-    log4perl.appender.AppFatal.mode: append
-    log4perl.appender.AppFatal.create_at_logtime: 1
-    log4perl.appender.AppFatal.layout: Log::Log4perl::Layout::PatternLayout
-    log4perl.appender.AppFatal.layout.ConversionPattern: "%d|||%p|||%c|||%F --line:%L|||%M %m %n"
-    log4perl.appender.AppFatal.Filter: MatchFatal
-
-    log4perl.filter.MatchTrace: Log::Log4perl::Filter::LevelMatch
-    log4perl.filter.MatchTrace.LevelToMatch: TRACE
-    log4perl.filter.MatchTrace.AcceptOnMatch: "true"
-
-    log4perl.appender.AppTrace: Log::Log4perl::Appender::File
-    log4perl.appender.AppTrace.filename: __PATH_TRACE__
-    log4perl.appender.AppTrace.mode: append
-    log4perl.appender.AppTrace.create_at_logtime: 1
-    log4perl.appender.AppTrace.layout: Log::Log4perl::Layout::PatternLayout
-    log4perl.appender.AppTrace.layout.ConversionPattern: "%d|||%p|||%c|||%F --line:%L|||%M %m %n"
-    log4perl.appender.AppTrace.Filter: MatchTrace
+email:
+    host: _smtpserver_
+    port: 111
+    ssl: 1
+    sasl_username: _smtpuser_
+    sasl_password: _smtppassword_
+    debug: 0
