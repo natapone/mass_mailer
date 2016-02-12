@@ -31,7 +31,7 @@ sub _build_key_field {
     return 'EMAIL';
 }
 
-sub BUILD {
+sub list {
     ( my $self ) = @_;
 
     my $mail_header;
@@ -66,7 +66,7 @@ sub BUILD {
 
         # add data to mail list
         # check duplicate from main key
-        if ( $mail_list->{$mail_detail->{$self->key_field}} ) {
+        if ( defined($mail_list->{$mail_detail->{$self->key_field}}) ) {
             print "Duplicate mail: ", Dumper($mail_detail), "\n";
         } else {
             $mail_list->{$mail_detail->{$self->key_field}} = $mail_detail;
