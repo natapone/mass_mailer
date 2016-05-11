@@ -6,3 +6,4 @@ email:
     sasl_username: _smtpuser_
     sasl_password: _smtppassword_
     debug: 0
+    ga_id: _google_analytic_id_

@@ -1,15 +1,15 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 	<head>
-		<!-- NAME: 1:3 COLUMN - BANDED -->
+		<!-- NAME: 1:3 COLUMN -->
 		<!--[if gte mso 15]>
-		<xml>
-			<o:OfficeDocumentSettings>
-			<o:AllowPNG/>
-			<o:PixelsPerInch>96</o:PixelsPerInch>
-			</o:OfficeDocumentSettings>
-		</xml>
-		<![endif]-->
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,6 +79,9 @@
 			font-weight:inherit !important;
 			line-height:inherit !important;
 		}
+		#bodyCell{
+			padding:10px;
+		}
 		.templateContainer{
 			max-width:600px !important;
 		}
@@ -112,6 +115,14 @@
 	*/
 		#bodyCell{
 			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Email Border
+	@tip Set the border for your email.
+	*/
+		.templateContainer{
+			/*@editable*/border:0;
 		}
 	/*
 	@tab Page
@@ -254,8 +265,8 @@
 			/*@editable*/background-color:#FFFFFF;
 			/*@editable*/border-top:0;
 			/*@editable*/border-bottom:0;
-			/*@editable*/padding-top:9px;
-			/*@editable*/padding-bottom:9px;
+			/*@editable*/padding-top:0;
+			/*@editable*/padding-bottom:0;
 		}
 	/*
 	@tab Body
@@ -563,41 +574,23 @@
 
 }</style></head>
     <body>
+      <img src="http://www.google-analytics.com/collect?v=1&tid=*|MC:GA_ID|*&cid=1&t=event&ec=email&ea=open&el=*|LICENSE_NO|*&cs=*|MC:CAMPAIGN_ID|*&cm=email"/>
         <center>
             <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
                 <tr>
                     <td align="center" valign="top" id="bodyCell">
-                        <!-- BEGIN TEMPLATE // -->
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr>
-								<td align="center" valign="top" id="templatePreheader">
-									<!--[if gte mso 9]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-										<tr>
-                                			<td valign="top" class="preheaderContainer"></td>
-										</tr>
-									</table>
-									<!--[if gte mso 9]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-                            </tr>
+						<!-- BEGIN TEMPLATE // -->
+						<!--[if gte mso 9]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+						<td align="center" valign="top" width="600" style="width:600px;">
+						<![endif]-->
+						<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
 							<tr>
-								<td align="center" valign="top" id="templateHeader">
-									<!--[if gte mso 9]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-										<tr>
-                                			<td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+								<td valign="top" id="templatePreheader"></td>
+							</tr>
+							<tr>
+								<td valign="top" id="templateHeader"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
     <tbody class="mcnImageBlockOuter">
             <tr>
                 <td valign="top" style="padding:9px" class="mcnImageBlockInner">
@@ -606,7 +599,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
 
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/de87f21bda7c025efb3ad245c/images/9f335d97-674d-4518-acbc-f28c19d2335a.jpg" width="113" style="max-width:113px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/4dee657f-23b6-4432-a1b1-b49992705311.jpg" width="113" style="max-width:113px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
 
 
                             </td>
@@ -616,25 +609,9 @@
             </tr>
     </tbody>
 </table></td>
-										</tr>
-									</table>
-									<!--[if gte mso 9]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-                            </tr>
+							</tr>
 							<tr>
-								<td align="center" valign="top" id="templateBody">
-									<!--[if gte mso 9]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-										<tr>
-                                			<td valign="top" class="bodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+								<td valign="top" id="templateBody"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner">
@@ -644,11 +621,59 @@
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-                            <h1><span style="font-size:13px; line-height:1.38">สวัสดีครับ คุณ *|FIRST NAME|*&nbsp;</span><span style="font-size:13px; line-height:17.94px">*|LAST NAME|*</span></h1>
+                            <h1 style="margin: 0px;padding: 0px;color: #202020;font-family: Helvetica;font-size: 26px;line-height: 32.5px;"><span style="font-size:13px; line-height:1.38">สวัสดีครับ คุณ *|FIRST NAME|*&nbsp;</span><span style="font-size:13px; line-height:17.94px">*|LAST NAME|*</span></h1>
+<span style="font-size:13px"><span style="color: #202020;font-family: helvetica;line-height: 17.94px;">คุณเป็นไกด์พาเที่ยวที่เหล่านี้ได้หรือเปล่า?<br>
+LokalHero กำลังหาโฮสต์เพื่อพาชาวต่างชาติเที่ยว สำหรับทริปเหล่านี้</span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
 
-<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13px">ถ้าคุณรักในการท่องเที่ยวและการพบเจอและรู้จักเพื่อนใหม่ๆ เราอยากชวนคุณมาร่วมทีมกับเรา<br>
-<br>
-LokalHero มีความมุ่งมั่นที่จะทำให้นักท่องเที่ยวจากทั่วโลกที่เดินทางมายังเมืองไทย ได้มีประสบการณ์ที่แตกต่างและน่าจดจำ เราจึงทำหน้าที่เป็นตัวกลางที่จะนำ Local Host มาพบกับนักท่องเที่ยวเหล่านี้ และทำให้พวกเค้าได้เที่ยวเมืองไทยในแบบที่คน local เที่ยวกัน</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
+                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;">
+                    <tbody><tr>
+                        <td>
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner">
+
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+
+                            ทริปสำหรับมืออาชืพ
+<ul>
+	<li>Ayutthaya World Heritage Day Trip <a href="http://www.lokalhero.com/examples/ayutthaya-world-heritage-day-trip/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Bangkok on Long-tail boat <a href="http://www.lokalhero.com/examples/bangkok-on-long-tail-boat/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Full Day Bike Trip <a href="http://www.lokalhero.com/examples/full-day-bike-trip/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Amphawa Floating Market <a href="http://www.lokalhero.com/examples/amphawa-floating-market/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+</ul>
+ทริปสบายๆ
+
+<ul>
+	<li>Thai Home Cooked Dinner <a href="http://www.lokalhero.com/examples/thai-home-cook-dinner/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Yaowarat Street Food Trip <a href="http://www.lokalhero.com/examples/yaowarat-street-food-trip/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Fresh Market Photo Walk <a href="http://www.lokalhero.com/examples/fresh-market-photo-walk/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+	<li>Vintage market walk for antique lover <a href="http://www.lokalhero.com/examples/vintage-market-walk-for-antique-lover/?sec=1&amp;c=*|MC:CAMPAIGN_ID|*" target="_blank">สมัคร</a></li>
+</ul>
 
                         </td>
                     </tr>
@@ -657,7 +682,70 @@ LokalHero มีความมุ่งมั่นที่จะทำให�
             </td>
         </tr>
     </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td valign="top" class="mcnTextBlockInner">
+
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+
+                            แต่ถ้าคุณมีไอเดียอื่นๆ เข้ามาสร้างทริปของคุณเองที่นี่เลย
+                        </td>
+                    </tr>
+                </tbody></table>
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
+    <tbody class="mcnButtonBlockOuter">
+        <tr>
+            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #FF5256;">
+                    <tbody>
+                        <tr>
+                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 15px;">
+                                <a class="mcnButton " title="สร้างทริปอื่นๆ" href="http://www.lokalhero.com/trip-registration/?c=*|MC:CAMPAIGN_ID|*" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">สร้างทริปอื่นๆ</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
 </table></td>
+							</tr>
+							<tr>
+								<td valign="top" id="templateColumns">
+									<!--[if gte mso 9]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="200" style="width:200px;">
+									<![endif]-->
+									<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+										<tr>
+											<td valign="top" class="columnContainer"></td>
+										</tr>
+									</table>
+									<!--[if gte mso 9]>
+									</td>
+									<td align="center" valign="top" width="200" style="width:200px;">
+									<![endif]-->
+									<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+										<tr>
+											<td valign="top" class="columnContainer"></td>
+										</tr>
+									</table>
+									<!--[if gte mso 9]>
+									</td>
+									<td align="center" valign="top" width="200" style="width:200px;">
+									<![endif]-->
+									<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
+										<tr>
+											<td valign="top" class="columnContainer"></td>
 										</tr>
 									</table>
 									<!--[if gte mso 9]>
@@ -666,179 +754,171 @@ LokalHero มีความมุ่งมั่นที่จะทำให�
 									</table>
 									<![endif]-->
 								</td>
-                            </tr>
+							</tr>
 							<tr>
-								<td align="center" valign="top" id="templateColumns">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-                                        <tr>
-                                            <td valign="top">
-												<!--[if gte mso 9]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-												<tr>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
-													<tr>
-														<td valign="top" class="columnContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-    <tbody class="mcnCaptionBlockOuter">
+								<td valign="top" id="templateFooter"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
         <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+            <td valign="top" class="mcnTextBlockInner">
 
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
+                    <tbody><tr>
 
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="false">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+                        <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-
-
-            <img alt="" src="https://gallery.mailchimp.com/de87f21bda7c025efb3ad245c/images/992afefc-a60f-4e7b-8716-4f6ac34bd122.png" width="164" style="max-width:190px;" class="mcnImage">
-
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="164">
-            <div style="text-align: center;"><strong>มารู้จักกับเพื่อนใหม่จาก<br>
-ทั่วทุกมุมโลก</strong></div>
-
-<div style="text-align: left;"><span style="font-size:13px">มาพบและทำความรู้จักกับเพื่อนใหม่จากนานาประเทศ และใช้ความคิดสร้างสรรค์ของคุณ ในการวางแผนเที่ยวให้เพื่อนชาวต่างชาติเหล่านี้ ยิ่งถ้าแผนการเที่ยวของคุณแตกต่าง และไม่เหมือนใคร เรายิ่งชอบ :)</span></div>
-
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
+                            <strong>Professional trip</strong>
+                        </td>
+                    </tr>
+                </tbody></table>
 
             </td>
         </tr>
     </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if gte mso 9]>
-												</td>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
-													<tr>
-														<td valign="top" class="columnContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageGroupBlock">
+    <tbody class="mcnImageGroupBlockOuter">
 
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageGroupBlockInner">
 
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="false">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-left: 9px; padding-top: 0; padding-bottom: 0;">
 
+                                    <a href="http://www.lokalhero.com/examples/ayutthaya-world-heritage-day-trip/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="test" class="" target="_blank">
+                                        <img alt="สมัคร Ayutthaya World Heritage Day Trip" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/7f11d01e-73e1-45ef-a9fa-f90d53491288.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
 
-
-            <img alt="" src="https://gallery.mailchimp.com/de87f21bda7c025efb3ad245c/images/aa771c49-c001-40fd-ac9a-ebd47c4e56ab.png" width="164" style="max-width:190px;" class="mcnImage">
-
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="164">
-            <div style="text-align: center;"><strong>มาเพิ่มรายได้จาก<br>
-การพาเที่ยว</strong></div>
-
-<div style="text-align: left;"><span style="font-size:13px">เราอยากให้คุณสนุกกับการนำเที่ยวมากกว่าการกังวลเรื่องการรับหรือจ่ายเงิน เราจึงจัดการทุกขั้นตอนที่ยุ่งยากเกี่ยวกับการชำระเงินให้หมด คุณจะได้พาเพื่อนใหม่ชาวต่างชาติของคุณเที่ยวได้อย่างสบายใจ ไร้กังวล</span></div>
-
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if gte mso 9]>
-												</td>
-												<td align="center" valign="top" width="200" style="width:200px;">
-												<![endif]-->
-												<table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="columnWrapper">
-													<tr>
-														<td valign="top" class="columnContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-    <tbody class="mcnCaptionBlockOuter">
-        <tr>
-            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
-
-
-<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionBottomContent" width="false">
-    <tbody><tr>
-        <td class="mcnCaptionBottomImageContent" align="center" valign="top" style="padding:0 9px 9px 9px;">
-
-
-
-            <img alt="" src="https://gallery.mailchimp.com/de87f21bda7c025efb3ad245c/images/1a8753f0-d9cd-4392-b10c-135b111d24ea.png" width="164" style="max-width:190px;" class="mcnImage">
-
-
-        </td>
-    </tr>
-    <tr>
-        <td class="mcnTextContent" valign="top" style="padding:0 9px 0 9px;" width="164">
-            <div style="text-align: center;"><strong>มาแลกเปลี่ยนวัฒนธรรม
-กับเพื่อนใหม่</strong></div>
-
-<div style="text-align: left;"><span style="font-size:13px">เพราะความแตกต่าง สิ่งที่คุณทำหรือพบเห็นอยู่ทุกวันอาจจะกลายเป็นเรื่องที่น่าตื่นเต้นในสายตา ของเพื่อนๆชาวต่างชาติก็เป็นได้ มาพาพวกเค้าไปสัมผัสโลกของคุณ ในแบบของคุณ และทำให้ความแตกต่างระหว่างเชื้อชาติกลายเป็นเรื่องสนุกกันเถอะ</span></div>
-
-        </td>
-    </tr>
-</tbody></table>
-
-
-
-
-
-            </td>
-        </tr>
-    </tbody>
-</table></td>
-													</tr>
-												</table>
-												<!--[if gte mso 9]>
-												</td>
-												</tr>
-												</table>
-												<![endif]-->
-											</td>
-										</tr>
-									</table>
-								</td>
+                                </td>
                             </tr>
-                            <tr>
-								<td align="center" valign="top" id="templateFooter">
-									<!--[if gte mso 9]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-									<tr>
-									<td align="center" valign="top" width="600" style="width:600px;">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
-										<tr>
-                                			<td valign="top" class="footerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
-    <tbody class="mcnButtonBlockOuter">
+                        </tbody></table>
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-right: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/bangkok-on-long-tail-boat/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Bangkok on Long-tail boat" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/70317720-6ef3-48f6-bbbc-7eb1c18d1755.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageGroupBlockInner">
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-left: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/full-day-bike-trip/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Bangkok on Long-tail boat" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/d6a36953-4178-443c-ae16-b4798cc592cd.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-right: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/amphawa-floating-market/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Amphawa Floating Market" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/ceaaa789-83fd-49e9-93a1-8db5ea259813.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                </td>
+            </tr>
+
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+    <tbody class="mcnTextBlockOuter">
         <tr>
-            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #FF5256;">
-                    <tbody>
-                        <tr>
-                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 16px; padding: 15px;">
-                                <a class="mcnButton " title="JOIN US" href="http://www.lokalhero.com/profile_registration/?c=*|MC:CAMPAIGN_ID|*" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">JOIN US</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <td valign="top" class="mcnTextBlockInner">
+
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+
+                            <strong>Casual trip</strong>
+                        </td>
+                    </tr>
+                </tbody></table>
+
             </td>
         </tr>
+    </tbody>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageGroupBlock">
+    <tbody class="mcnImageGroupBlockOuter">
+
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageGroupBlockInner">
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-left: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/thai-home-cook-dinner/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Thai Home Cooked Dinner" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/39b1a76f-d9f0-4dba-ae63-e4f0c5a028e0.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-right: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/yaowarat-street-food-trip/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Yaowarat Street Food Trip" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/c6e3d789-8917-4d08-8083-9e0c7e57c946.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top" style="padding:9px" class="mcnImageGroupBlockInner">
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-left: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/fresh-market-photo-walk/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Fresh Market Photo Walk" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/de106c87-b41d-43cf-8c78-b4128120ddf0.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                    <table align="left" width="273" border="0" cellpadding="0" cellspacing="0" class="mcnImageGroupContentContainer">
+                            <tbody><tr>
+                                <td class="mcnImageGroupContent" valign="top" style="padding-right: 9px; padding-top: 0; padding-bottom: 0;">
+
+                                    <a href="http://www.lokalhero.com/examples/vintage-market-walk-for-antique-lover/?sec=2&amp;c=*|MC:CAMPAIGN_ID|*" title="" class="" target="_blank">
+                                        <img alt="สมัคร Vintage market walk for antique lover" src="https://gallery.mailchimp.com/1ebb67cbe90645b93bace8caa/images/aec4c875-0917-470c-a7a1-b28cbd960205.jpg" width="264" style="max-width:1024px; padding-bottom: 0;" class="mcnImage">
+                                    </a>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+
+                </td>
+            </tr>
+
     </tbody>
 </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width:100%;">
     <tbody class="mcnFollowBlockOuter">
@@ -873,7 +953,7 @@ LokalHero มีความมุ่งมั่นที่จะทำให�
                                                                         <tbody><tr>
 
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                    <a href="https://www.facebook.com/lokalherobkk" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display:block;" height="24" width="24" class=""></a>
+                                                                                    <a href="https://www.facebook.com/lokalherobkk/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
 
 
@@ -905,7 +985,7 @@ LokalHero มีความมุ่งมั่นที่จะทำให�
                                                                         <tbody><tr>
 
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                    <a href="http://www.lokalhero.com" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" style="display:block;" height="24" width="24" class=""></a>
+                                                                                    <a href="http://www.lokalhero.com/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
 
 
@@ -967,14 +1047,15 @@ LokalHero มีความมุ่งมั่นที่จะทำให�
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-                            <span style="color:#A9A9A9"><em>Copyright © 2016 ABC Startsiden, All rights reserved.&nbsp;<br>
+                            <div style="text-align: center;"><span style="color:#A9A9A9"><em>Copyright © 2016 ABC Startsiden, All rights reserved.&nbsp;<br>
 You are receiving this email because you are listed as an official guide at Thailand Department of Tourism<br>
 <br>
-Our mailing address is:&nbsp;<br>
+<strong>Our mailing address is:&nbsp;</strong><br>
 ABC Startsiden<br>
 Kirkegata 17<br>
 Oslo, Oslo 0153<br>
-Norway</em></span>
+Norway</em></span></div>
+
                         </td>
                     </tr>
                 </tbody></table>
@@ -983,17 +1064,14 @@ Norway</em></span>
         </tr>
     </tbody>
 </table></td>
-										</tr>
-									</table>
-									<!--[if gte mso 9]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-                            </tr>
-                        </table>
-                        <!-- // END TEMPLATE -->
+							</tr>
+						</table>
+						<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+						<!-- // END TEMPLATE -->
                     </td>
                 </tr>
             </table>

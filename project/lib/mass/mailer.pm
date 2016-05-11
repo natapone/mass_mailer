@@ -114,6 +114,9 @@ sub create_email {
     # add campaign_id
     $mail_detail->{'MC:CAMPAIGN_ID'} = $self->campaign_id;
 
+    # add google analytic id
+    $mail_detail->{'MC:GA_ID'} = $self->email_config->{ga_id};
+
     my $context = $self->template;
     # replace text in template
     foreach my $key ( keys %{$mail_detail} ) {
