@@ -28,3 +28,6 @@ BOX$ perl bin/mass_mail.pl
 ## email tracking
 http://dyn.com/blog/tracking-email-opens-via-google-analytics/
 https://developers.google.com/analytics/devguides/collection/protocol/v1/email
+
+# Github Repository
+https://github.com/natapone/mass_mailer
