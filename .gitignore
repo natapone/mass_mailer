@@ -21,3 +21,4 @@ nytprof.out
 .DS_Store
 .vagrant/
 *_local.yml
+project/data/mail/*
